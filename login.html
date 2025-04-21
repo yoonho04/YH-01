@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="SECON.html">SECON</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+
+      <form style="text-align: center">
+        <fieldset class="login-form">
+          <!--홈페이지그룹지정-->
+          <legend><h1>로그인</h1></legend>
+          <div>
+            <label for="id">아이디</label>
+            <input
+            type="text"
+            id="id"
+            size="20"
+            value=""
+            maxlength="10"
+            readonly
+            required
+            style="font-size: 40;"
+            />
+            <div>
+              <label for="password">패스워드</label>
+              <input type="password" name="" id="password" size="20" required
+              style="font-size: 40;"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="login-button">
+          <input type="submit" value="로그인" style="display: flex; justify-content: center;">
+          <input type="reset" value="취소하기" style="display: flex; justify-content: center;">
+          <input type="image" src="열쇠.png" alt="여기로 로그인하세요." width="50" />
+        </div>
+        </fieldset>
+    </form>
+  </body>
+</html>
